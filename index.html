@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="globals.css" />
+		<title>Diary App</title>
+	</head>
+	<body>
+		<header class="headingContainer">
+			<h1 class="heading">Diary App</h1>
+		</header>
+		<main>
+			<form id="addRecordForm">
+				<input
+					type="text"
+					placeholder="Enter the title here.."
+					class="titleInput"
+				/>
+				<input type="date" class="datePicker" />
+				<textarea
+					cols="35"
+					rows="5"
+					placeholder="Enter the content here.."
+					class="contentArea"
+				></textarea>
+				<button type="submit" class="btn">Add to Diary</button>
+			</form>
+			<section class="linkSection">
+				<a href="diary.html">View All Diary Records</a>
+			</section>
+		</main>
+		<script src="index.js"></script>
+	</body>
+</html>
